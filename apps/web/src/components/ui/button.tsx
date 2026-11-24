@@ -9,7 +9,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-accent text-white hover:bg-accent-hover shadow-[0_0_20px_4px_var(--color-accent-glow)] hover:shadow-[0_0_30px_8px_var(--color-accent-glow)]",
+          "text-white shadow-[0_0_24px_4px_rgba(196,120,90,0.25)] hover:shadow-[0_0_32px_8px_rgba(196,120,90,0.35)] hover:brightness-110",
         secondary:
           "bg-surface-2 text-text border border-border hover:border-border-hover hover:bg-surface",
         outline:
@@ -46,6 +46,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <Comp
         className={cn(buttonVariants({ variant, size, className }))}
+        style={variant === "default" || variant === undefined ? { background: "var(--gradient-accent)" } : undefined}
         ref={ref}
         {...props}
       />

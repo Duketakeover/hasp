@@ -52,8 +52,8 @@ We study the **vibe** (quiet confidence, editorial luxury, premium dark fintech)
 
 | Element | Rooq | Hasp |
 |---------|------|------|
-| Accent color | Warm amber/terracotta | Electric blue `#2F7BFF` |
-| Glow | Amber radial bloom | Blue radial glow |
+| Accent color | Warm amber/terracotta | Teal-emerald `#00C8AA` |
+| Glow | Amber radial bloom | Teal radial glow |
 | Font (primary) | Instrument Sans | Inter / Geist |
 | Font (mono) | IBM Plex Mono | JetBrains Mono |
 | H1 weight | Regular (400) | Bold (700) — we're more assertive |

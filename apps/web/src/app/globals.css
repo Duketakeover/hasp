@@ -2,21 +2,33 @@
 
 /* ── Hasp Design Tokens ── */
 @theme {
-  --color-bg: #0B0E11;
-  --color-surface: #12161A;
-  --color-surface-2: #181D22;
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-border-hover: rgba(255, 255, 255, 0.14);
-  --color-text: #F5F7FA;
-  --color-muted: #8B95A1;
-  --color-accent: #2F7BFF;
-  --color-accent-hover: #4A8FFF;
-  --color-accent-glow: rgba(47, 123, 255, 0.28);
-  --color-accent-glow-strong: rgba(47, 123, 255, 0.45);
-  --color-positive: #3DDC97;
-  --color-positive-glow: rgba(61, 220, 151, 0.2);
-  --color-warning: #FF6B5A;
-  --color-warning-glow: rgba(255, 107, 90, 0.2);
+  --color-bg: #0A0C0E;
+  --color-surface: #111417;
+  --color-surface-2: #181B1F;
+  --color-border: rgba(255, 255, 255, 0.07);
+  --color-border-hover: rgba(255, 255, 255, 0.13);
+  --color-text: #F0EDE8;
+  --color-muted: #8A8A96;
+
+  /* Primary accent — Copper Rose */
+  --color-accent: #C4785A;
+  --color-accent-hover: #D48A6A;
+  --color-accent-glow: rgba(196, 120, 90, 0.22);
+  --color-accent-glow-strong: rgba(196, 120, 90, 0.40);
+
+  /* Secondary accent — Muted Violet */
+  --color-accent-2: #9475C8;
+  --color-accent-2-hover: #A688D8;
+  --color-accent-2-glow: rgba(148, 117, 200, 0.22);
+
+  /* Gradient shorthand: copper → violet */
+  --gradient-accent: linear-gradient(135deg, #C4785A 0%, #9475C8 100%);
+  --gradient-accent-glow: linear-gradient(135deg, rgba(196,120,90,0.3) 0%, rgba(148,117,200,0.3) 100%);
+
+  --color-positive: #56C99A;
+  --color-positive-glow: rgba(86, 201, 154, 0.18);
+  --color-warning: #E07A44;
+  --color-warning-glow: rgba(224, 122, 68, 0.2);
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;

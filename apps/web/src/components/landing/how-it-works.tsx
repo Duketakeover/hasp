@@ -87,7 +87,7 @@ export function HowItWorks() {
                 </div>
                 <div className="border-l border-border pl-4">
                   <p className="text-xs text-muted mb-0.5 font-mono">{step.num} · Hasp</p>
-                  <p className="font-medium text-sm text-accent">{step.autopilot}</p>
+                  <p className="font-medium text-sm" style={{ color: "#9475C8" }}>{step.autopilot}</p>
                 </div>
               </motion.div>
             );
